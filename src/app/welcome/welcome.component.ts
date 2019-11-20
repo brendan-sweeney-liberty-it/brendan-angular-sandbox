@@ -13,8 +13,9 @@ export class WelcomeComponent implements OnInit {
   
   }
 
-  onClick() {
+  close() {
     this.welcomeStatus = false;
+    
   }
 
 }
